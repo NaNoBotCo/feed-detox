@@ -34,3 +34,13 @@ Both are Markdown — run them through your PDF Tool for a clean handout.
 2. **The Precepts** (ongoing): the daily habits — don't click, don't linger,
    don't engage, guard the back door, renew monthly — because the feed
    rebuilds itself from behavior. Skip these and it all comes back.
+
+
+## Licence
+
+Records, prose and pages: CC BY-SA 4.0. Code: AGPL-3.0-or-later. Anything
+carried in from elsewhere keeps its own terms — see [LICENSE](LICENSE).
+
+**Commercial licence.** If share-alike doesn't fit your use — a corpus, a
+product, a model — a commercial licence is available.
+[Open an issue](https://github.com/NaNoBotCo/feed-detox/issues) and say what you need.
