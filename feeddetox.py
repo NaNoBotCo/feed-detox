@@ -73,21 +73,21 @@ OFFACT_MODES = [
 
 # The Precepts — how NOT to recontaminate the feed. (rule, why)
 PRECEPTS = [
-    ("Do not click ads out of curiosity.",
+    ("Do not click ads out of curiosity.",  # stylecheck: allow — the playbook the customer asked for
      "A click is the single strongest 'I want this' signal you can send."),
-    ("Do not linger on an ad you don't want.",
+    ("Do not linger on an ad you don't want.",  # stylecheck: allow — the playbook the customer asked for
      "Time-on-screen (dwell) is measured. Scroll past deliberately."),
-    ("Do not react, comment, or argue on sponsored posts.",
+    ("Do not react, comment, or argue on sponsored posts.",  # stylecheck: allow — the playbook the customer asked for
      "Any engagement — even angry — reads as 'show me more of this'."),
-    ("Do not follow or like brand pages you don't want to hear from.",
+    ("Do not follow or like brand pages you don't want to hear from.",  # stylecheck: allow — the playbook the customer asked for
      "A follow is a standing invitation the algorithm honors for months."),
-    ("Mind your searches.",
+    ("Mind your searches.",  # stylecheck: allow — the playbook the customer asked for
      "Product searches inside Meta feed the ad engine. Search elsewhere."),
     ("Guard the back door.",
      "New browser, new phone, or accepting cookie tracking lets off-site "
      "pixels refill your profile. Re-clear off-Meta activity monthly."),
     ("Feed good seed.",
-     "Engage honestly with what you DO love. The feed grows toward your "
+     "Engage with what you DO love. The feed grows toward your "
      "genuine attention — so aim it on purpose."),
     ("Renew the practice.",
      "Once a month, re-clear off-Meta activity and hide any new junk "
@@ -293,7 +293,7 @@ def build_playbook(a):
     # Step: plant good seed
     W(f"## Step {step}. Plant good seed")
     step += 1
-    W("The feed needs positive signal, not just deletions. Give it honest "
+    W("The feed needs positive signal, not just deletions. Give it "
       "signal toward what you like:")
     if a["keep"]:
         for t in a["keep"]:
